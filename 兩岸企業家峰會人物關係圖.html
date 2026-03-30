@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>兩岸企業家峰會人物關係圖</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,'PingFang TC','Microsoft JhengHei','Helvetica Neue',sans-serif;background:#fff;color:#1a1a1a;padding:24px}
+@media(prefers-color-scheme:dark){body{background:#1a1a1a;color:#e0e0e0}}
+.wrap{max-width:720px;margin:0 auto;padding:1rem 0}
+.legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-bottom:14px;font-size:12px;color:#888}
+@media(prefers-color-scheme:dark){.legend{color:#aaa}}
+.legend-i{display:flex;align-items:center;gap:5px}
+.legend-d{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.dp{margin-top:12px;padding:12px 16px;border-radius:12px;background:#f5f5f0;border:1px solid #e0e0d8;font-size:13px;color:#1a1a1a;line-height:1.6;display:none}
+@media(prefers-color-scheme:dark){.dp{background:#2a2a28;border-color:#444;color:#e0e0e0}}
+.dp h3{font-size:14px;font-weight:500;margin-bottom:4px}
+.tg{display:inline-block;padding:2px 8px;border-radius:4px;font-size:11px;margin:2px}
+.t-s{background:#EEEDFE;color:#3C3489}
+.t-p{background:#FAECE7;color:#712B13}
+.t-b{background:#E1F5EE;color:#085041}
+.t-n{background:#E6F1FB;color:#0C447C}
+@media(prefers-color-scheme:dark){
+.t-s{background:#3C3489;color:#CECBF6}
+.t-p{background:#712B13;color:#F5C4B3}
+.t-b{background:#085041;color:#9FE1CB}
+.t-n{background:#0C447C;color:#B5D4F4}
+}
+svg text{font-family:-apple-system,'PingFang TC','Microsoft JhengHei','Helvetica Neue',sans-serif}
+g.node{cursor:pointer}
+g.node:hover{opacity:0.85}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="legend">
+<div class="legend-i"><div class="legend-d" style="background:#7F77DD"></div>峰會核心・國貿幫大老</div>
+<div class="legend-i"><div class="legend-d" style="background:#D85A30"></div>關鍵政策決策</div>
+<div class="legend-i"><div class="legend-d" style="background:#378ADD"></div>國貿幫新世代</div>
+<div class="legend-i"><div class="legend-d" style="background:#1D9E75"></div>附屬組織</div>
+<div class="legend-i"><div class="legend-d" style="background:#888780"></div>未任峰會職務</div>
+</div>
+<svg width="100%" viewBox="0 0 680 910" xmlns="http://www.w3.org/2000/svg">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+
+<text x="340" y="28" text-anchor="middle" font-size="11" fill="#888" font-weight="500" letter-spacing="2px">國 貿 幫 大 老　→　峰 會 核 心 領 導</text>
+<line x1="40" y1="36" x2="640" y2="36" stroke="#e0e0d8" stroke-width="0.5"/>
+
+<g class="node" onclick="sd('xiao')">
+<rect x="30" y="50" width="185" height="52" rx="8" fill="#EEEDFE" stroke="#7F77DD" stroke-width="0.5"/>
+<text x="122" y="70" text-anchor="middle" font-size="14" font-weight="500" fill="#3C3489">蕭萬長</text>
+<text x="122" y="88" text-anchor="middle" font-size="10" fill="#534AB7">榮譽理事長・前副總統</text>
+</g>
+<g class="node" onclick="sd('jiang')">
+<rect x="247" y="50" width="186" height="52" rx="8" fill="#EEEDFE" stroke="#7F77DD" stroke-width="0.5"/>
+<text x="340" y="70" text-anchor="middle" font-size="14" font-weight="500" fill="#3C3489">江丙坤（已歿）</text>
+<text x="340" y="88" text-anchor="middle" font-size="10" fill="#534AB7">前理事長・前海基會會長</text>
+</g>
+<g class="node" onclick="sd('chen')">
+<rect x="465" y="50" width="185" height="52" rx="8" fill="#EEEDFE" stroke="#7F77DD" stroke-width="0.5"/>
+<text x="557" y="70" text-anchor="middle" font-size="14" font-weight="500" fill="#3C3489">陳瑞隆</text>
+<text x="557" y="88" text-anchor="middle" font-size="10" fill="#534AB7">副理事長・前經濟部長</text>
+</g>
+<text x="122" y="115" text-anchor="middle" font-size="9" fill="#aaa">國貿局長出身</text>
+<text x="340" y="115" text-anchor="middle" font-size="9" fill="#aaa">國貿局長出身</text>
+<text x="557" y="115" text-anchor="middle" font-size="9" fill="#aaa">國貿局長出身</text>
+
+<line x1="122" y1="102" x2="280" y2="148" stroke="#7F77DD" stroke-width="0.8" opacity="0.5"/>
+<line x1="340" y1="102" x2="340" y2="148" stroke="#7F77DD" stroke-width="0.8" opacity="0.5"/>
+<line x1="557" y1="102" x2="400" y2="148" stroke="#7F77DD" stroke-width="0.8" opacity="0.5"/>
+
+<g class="node" onclick="sd('summit')">
+<rect x="200" y="148" width="280" height="64" rx="16" fill="#7F77DD" stroke="#534AB7" stroke-width="1.5"/>
+<text x="340" y="173" text-anchor="middle" font-size="16" font-weight="500" fill="#fff">兩岸企業家峰會</text>
+<text x="340" y="193" text-anchor="middle" font-size="10" fill="#CECBF6">中國統戰部門催生・習近平認可</text>
+</g>
+
+<line x1="260" y1="212" x2="105" y2="246" stroke="#7F77DD" stroke-width="0.6" opacity="0.4"/>
+<line x1="300" y1="212" x2="275" y2="246" stroke="#7F77DD" stroke-width="0.6" opacity="0.4"/>
+<line x1="380" y1="212" x2="445" y2="246" stroke="#7F77DD" stroke-width="0.6" opacity="0.4"/>
+<line x1="420" y1="212" x2="590" y2="246" stroke="#7F77DD" stroke-width="0.6" opacity="0.4"/>
+
+<g class="node" onclick="sd('liu')">
+<rect x="30" y="246" width="150" height="48" rx="8" fill="#EEEDFE" stroke="#7F77DD" stroke-width="0.5"/>
+<text x="105" y="264" text-anchor="middle" font-size="13" font-weight="500" fill="#3C3489">劉兆玄</text>
+<text x="105" y="281" text-anchor="middle" font-size="10" fill="#534AB7">理事長・前行政院長</text>
+</g>
+<g class="node" onclick="sd('yin')">
+<rect x="195" y="246" width="160" height="48" rx="8" fill="#EEEDFE" stroke="#7F77DD" stroke-width="0.5"/>
+<text x="275" y="264" text-anchor="middle" font-size="13" font-weight="500" fill="#3C3489">尹啟銘</text>
+<text x="275" y="281" text-anchor="middle" font-size="10" fill="#534AB7">祕書長・前經濟部長</text>
+</g>
+<g class="node" onclick="sd('fan')">
+<rect x="370" y="246" width="150" height="48" rx="8" fill="#EEEDFE" stroke="#7F77DD" stroke-width="0.5"/>
+<text x="445" y="264" text-anchor="middle" font-size="13" font-weight="500" fill="#3C3489">范良棟</text>
+<text x="445" y="281" text-anchor="middle" font-size="10" fill="#534AB7">副祕書長</text>
+</g>
+<g class="node" onclick="sd('cai')">
+<rect x="535" y="246" width="115" height="48" rx="8" fill="#EEEDFE" stroke="#7F77DD" stroke-width="0.5"/>
+<text x="592" y="264" text-anchor="middle" font-size="13" font-weight="500" fill="#3C3489">蔡練生</text>
+<text x="592" y="281" text-anchor="middle" font-size="10" fill="#534AB7">副祕書長</text>
+</g>
+
+<text x="340" y="318" text-anchor="middle" font-size="11" fill="#888" font-weight="500" letter-spacing="2px">關 鍵 政 策 決 策</text>
+<line x1="40" y1="326" x2="640" y2="326" stroke="#e0e0d8" stroke-width="0.5"/>
+
+<g class="node" onclick="sd('p1')">
+<rect x="30" y="338" width="195" height="56" rx="8" fill="#FAECE7" stroke="#D85A30" stroke-width="0.5"/>
+<text x="127" y="358" text-anchor="middle" font-size="11" font-weight="500" fill="#712B13">2009 第三地中資定義</text>
+<text x="127" y="374" text-anchor="middle" font-size="9" fill="#993C1D">持股未達三成且無控制力</text>
+<text x="127" y="386" text-anchor="middle" font-size="9" fill="#993C1D">→ 不算中資</text>
+</g>
+<g class="node" onclick="sd('p2')">
+<rect x="240" y="338" width="200" height="56" rx="8" fill="#FAECE7" stroke="#D85A30" stroke-width="0.5"/>
+<text x="340" y="358" text-anchor="middle" font-size="11" font-weight="500" fill="#712B13">2008 外資買台股免審查</text>
+<text x="340" y="374" text-anchor="middle" font-size="9" fill="#993C1D">單次10%以下不受投審會審查</text>
+<text x="340" y="386" text-anchor="middle" font-size="9" fill="#993C1D">→ 可買下台積電</text>
+</g>
+<g class="node" onclick="sd('p3')">
+<rect x="455" y="338" width="195" height="56" rx="8" fill="#FAECE7" stroke="#D85A30" stroke-width="0.5"/>
+<text x="552" y="358" text-anchor="middle" font-size="11" font-weight="500" fill="#712B13">2011-2013 服貿談判</text>
+<text x="552" y="374" text-anchor="middle" font-size="9" fill="#993C1D">兩岸服務貿易協議</text>
+<text x="552" y="386" text-anchor="middle" font-size="9" fill="#993C1D">→ 太陽花運動阻止</text>
+</g>
+
+<line x1="275" y1="294" x2="127" y2="338" stroke="#D85A30" stroke-width="0.6" stroke-dasharray="3 2" opacity="0.5"/>
+<line x1="445" y1="294" x2="140" y2="338" stroke="#D85A30" stroke-width="0.6" stroke-dasharray="3 2" opacity="0.4"/>
+<line x1="592" y1="294" x2="180" y2="355" stroke="#D85A30" stroke-width="0.6" stroke-dasharray="3 2" opacity="0.4"/>
+<line x1="445" y1="294" x2="310" y2="338" stroke="#D85A30" stroke-width="0.6" stroke-dasharray="3 2" opacity="0.5"/>
+<line x1="557" y1="102" x2="360" y2="338" stroke="#D85A30" stroke-width="0.6" stroke-dasharray="3 2" opacity="0.4"/>
+<line x1="122" y1="102" x2="520" y2="338" stroke="#D85A30" stroke-width="0.6" stroke-dasharray="3 2" opacity="0.4"/>
+<line x1="340" y1="102" x2="540" y2="338" stroke="#D85A30" stroke-width="0.6" stroke-dasharray="3 2" opacity="0.4"/>
+
+<g class="node" onclick="sd('wu')">
+<rect x="30" y="410" width="155" height="44" rx="8" fill="#f5f5f0" stroke="#ccc" stroke-width="0.5"/>
+<text x="107" y="426" text-anchor="middle" font-size="12" font-weight="500" fill="#333">吳當傑</text>
+<text x="107" y="442" text-anchor="middle" font-size="9" fill="#888">前證期局長・金融總會祕書長</text>
+</g>
+<g class="node" onclick="sd('zhuo')">
+<rect x="200" y="410" width="155" height="44" rx="8" fill="#f5f5f0" stroke="#ccc" stroke-width="0.5"/>
+<text x="277" y="426" text-anchor="middle" font-size="12" font-weight="500" fill="#333">卓士昭</text>
+<text x="277" y="442" text-anchor="middle" font-size="9" fill="#888">前國貿局長・拆安全閥</text>
+</g>
+<g class="node" onclick="sd('zhang')">
+<rect x="370" y="410" width="155" height="44" rx="8" fill="#f5f5f0" stroke="#ccc" stroke-width="0.5"/>
+<text x="447" y="426" text-anchor="middle" font-size="12" font-weight="500" fill="#333">張銘斌</text>
+<text x="447" y="442" text-anchor="middle" font-size="9" fill="#888">投審會執行祕書逾十年</text>
+</g>
+<g class="node" onclick="sd('fu')">
+<rect x="540" y="410" width="110" height="44" rx="8" fill="#EEEDFE" stroke="#7F77DD" stroke-width="0.5"/>
+<text x="595" y="426" text-anchor="middle" font-size="12" font-weight="500" fill="#3C3489">傅棟成</text>
+<text x="595" y="442" text-anchor="middle" font-size="9" fill="#534AB7">特聘專家</text>
+</g>
+<line x1="107" y1="394" x2="107" y2="410" stroke="#888" stroke-width="0.6" stroke-dasharray="3 2" opacity="0.4"/>
+<line x1="277" y1="394" x2="277" y2="410" stroke="#888" stroke-width="0.6" stroke-dasharray="3 2" opacity="0.4"/>
+<line x1="447" y1="394" x2="447" y2="410" stroke="#888" stroke-width="0.6" stroke-dasharray="3 2" opacity="0.4"/>
+<line x1="595" y1="212" x2="595" y2="410" stroke="#7F77DD" stroke-width="0.6" opacity="0.3"/>
+
+<text x="340" y="486" text-anchor="middle" font-size="11" fill="#888" font-weight="500" letter-spacing="2px">國 貿 幫 世 代 傳 承　（ 2 0 1 6 年 後 ）</text>
+<line x1="40" y1="494" x2="640" y2="494" stroke="#e0e0d8" stroke-width="0.5"/>
+
+<path d="M340 212 L340 230 L340 494" fill="none" stroke="#7F77DD" stroke-width="0.5" stroke-dasharray="5 3" opacity="0.25"/>
+
+<g class="node" onclick="sd('yang')">
+<rect x="30" y="508" width="145" height="56" rx="8" fill="#E6F1FB" stroke="#378ADD" stroke-width="0.5"/>
+<text x="102" y="528" text-anchor="middle" font-size="13" font-weight="500" fill="#0C447C">楊珍妮</text>
+<text x="102" y="544" text-anchor="middle" font-size="9" fill="#185FA5">國貿局長 → 政務委員</text>
+<text x="102" y="556" text-anchor="middle" font-size="9" fill="#185FA5">兼總談判代表</text>
+</g>
+<g class="node" onclick="sd('chenZQ')">
+<rect x="190" y="508" width="145" height="56" rx="8" fill="#E6F1FB" stroke="#378ADD" stroke-width="0.5"/>
+<text x="262" y="528" text-anchor="middle" font-size="13" font-weight="500" fill="#0C447C">陳正祺</text>
+<text x="262" y="544" text-anchor="middle" font-size="9" fill="#185FA5">國貿局長 →</text>
+<text x="262" y="556" text-anchor="middle" font-size="9" fill="#185FA5">經濟部政務次長</text>
+</g>
+<g class="node" onclick="sd('jiangWR')">
+<rect x="350" y="508" width="145" height="56" rx="8" fill="#E6F1FB" stroke="#378ADD" stroke-width="0.5"/>
+<text x="422" y="528" text-anchor="middle" font-size="13" font-weight="500" fill="#0C447C">江文若</text>
+<text x="422" y="544" text-anchor="middle" font-size="9" fill="#185FA5">國貿局長 → 政務次長</text>
+<text x="422" y="556" text-anchor="middle" font-size="9" fill="#185FA5">兼副總談判代表</text>
+</g>
+<g class="node" onclick="sd('liuWL')">
+<rect x="510" y="508" width="140" height="56" rx="8" fill="#E6F1FB" stroke="#378ADD" stroke-width="0.5"/>
+<text x="580" y="528" text-anchor="middle" font-size="13" font-weight="500" fill="#0C447C">劉威廉</text>
+<text x="580" y="544" text-anchor="middle" font-size="9" fill="#185FA5">現任國貿署長</text>
+<text x="580" y="556" text-anchor="middle" font-size="9" fill="#185FA5">（尚在任）</text>
+</g>
+
+<rect x="65" y="572" width="520" height="22" rx="4" fill="#E6F1FB" opacity="0.5"/>
+<text x="325" y="587" text-anchor="middle" font-size="10" fill="#0C447C">共同特徵：國貿局常任文官出身 → 駐外人員 → 經貿談判代表 → 局長 → 部長職</text>
+
+<text x="340" y="624" text-anchor="middle" font-size="11" fill="#888" font-weight="500" letter-spacing="2px">「 書 同 文 ，車 同 軌 」 附 屬 組 織</text>
+<line x1="40" y1="632" x2="640" y2="632" stroke="#e0e0d8" stroke-width="0.5"/>
+
+<g class="node" onclick="sd('orgs')">
+<rect x="30" y="644" width="190" height="40" rx="8" fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="125" y="660" text-anchor="middle" font-size="11" font-weight="500" fill="#085041">兩岸共同市場基金會</text>
+<text x="125" y="676" text-anchor="middle" font-size="9" fill="#0F6E56">蕭萬長主導</text>
+</g>
+<g class="node" onclick="sd('orgs')">
+<rect x="235" y="644" width="210" height="40" rx="8" fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="340" y="660" text-anchor="middle" font-size="11" font-weight="500" fill="#085041">中華文化永續發展基金會</text>
+<text x="340" y="676" text-anchor="middle" font-size="9" fill="#0F6E56">劉兆玄主導</text>
+</g>
+<g class="node" onclick="sd('orgs')">
+<rect x="460" y="644" width="190" height="40" rx="8" fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.5"/>
+<text x="555" y="660" text-anchor="middle" font-size="11" font-weight="500" fill="#085041">華聚產業共同標準基金會</text>
+<text x="555" y="676" text-anchor="middle" font-size="9" fill="#0F6E56">陳瑞隆主導</text>
+</g>
+<line x1="125" y1="644" x2="280" y2="212" stroke="#1D9E75" stroke-width="0.5" opacity="0.3"/>
+<line x1="340" y1="644" x2="340" y2="212" stroke="#1D9E75" stroke-width="0.5" opacity="0.3"/>
+<line x1="555" y1="644" x2="400" y2="212" stroke="#1D9E75" stroke-width="0.5" opacity="0.3"/>
+
+<g class="node" onclick="sd('gov')">
+<rect x="100" y="704" width="480" height="38" rx="8" fill="#E1F5EE" stroke="#1D9E75" stroke-width="0.5" stroke-dasharray="4 2"/>
+<text x="340" y="720" text-anchor="middle" font-size="11" font-weight="500" fill="#085041">官股財團法人會員：工研院・中技社・外貿協會</text>
+<text x="340" y="734" text-anchor="middle" font-size="9" fill="#0F6E56">陳正祺任外貿協會・中技社董事（經濟部政務次長）</text>
+</g>
+<line x1="340" y1="684" x2="340" y2="704" stroke="#1D9E75" stroke-width="0.5" opacity="0.3"/>
+<path d="M262 564 L262 580 L262 704" fill="none" stroke="#378ADD" stroke-width="0.6" stroke-dasharray="3 2" opacity="0.4"/>
+
+<line x1="122" y1="115" x2="102" y2="508" stroke="#7F77DD" stroke-width="0.4" stroke-dasharray="2 4" opacity="0.15"/>
+<line x1="340" y1="115" x2="262" y2="508" stroke="#7F77DD" stroke-width="0.4" stroke-dasharray="2 4" opacity="0.15"/>
+<line x1="340" y1="115" x2="422" y2="508" stroke="#7F77DD" stroke-width="0.4" stroke-dasharray="2 4" opacity="0.15"/>
+<line x1="557" y1="115" x2="580" y2="508" stroke="#7F77DD" stroke-width="0.4" stroke-dasharray="2 4" opacity="0.15"/>
+
+<text x="22" y="504" text-anchor="start" font-size="9" fill="#aaa" transform="rotate(90,22,504)">傳承</text>
+<path d="M18 70 L18 540" fill="none" stroke="#7F77DD" stroke-width="1" stroke-dasharray="2 3" opacity="0.2"/>
+
+<rect x="30" y="764" width="300" height="52" rx="8" fill="#E6F1FB" opacity="0.5"/>
+<text x="180" y="784" text-anchor="middle" font-size="11" font-weight="500" fill="#0C447C">9 位決策者中 6 位（67%）</text>
+<text x="180" y="802" text-anchor="middle" font-size="11" fill="#0C447C">離職後出任峰會職務</text>
+
+<rect x="350" y="764" width="300" height="52" rx="8" fill="#FAEEDA" opacity="0.5"/>
+<text x="500" y="784" text-anchor="middle" font-size="11" font-weight="500" fill="#854F0B">5 位國貿局長出身形成</text>
+<text x="500" y="802" text-anchor="middle" font-size="11" fill="#854F0B">跨黨派「國貿幫」系譜</text>
+
+<rect x="130" y="836" width="420" height="40" rx="8" fill="#FCEBEB" opacity="0.4"/>
+<text x="340" y="852" text-anchor="middle" font-size="12" font-weight="500" fill="#A32D2D">結構性旋轉門：國貿局常任文官 → 經濟部長 → 兩岸企業家峰會</text>
+<text x="340" y="868" text-anchor="middle" font-size="10" fill="#A32D2D">2016年後國貿幫世代傳承延續同一晉升管道</text>
+
+</svg>
+<div class="dp" id="detail"></div>
+</div>
+<script>
+const D={
+summit:{n:'兩岸企業家峰會',t:[['t-s','統戰平台'],['t-p','以經促統']],d:'2013年完成組織立案，由中國統戰部門催生。蕭萬長在博鰲論壇經習近平點頭後籌組。中國官網明言是「推進國家統一的重要制度安排」。首屆共同倡議「推進兩岸共同市場建設，加快經濟一體化」。共有7位前經濟部長在此任職。團體會員涵蓋台灣主要工商團體，工總祕書長與工商協進會祕書長固定擔任副祕書長。'},
+xiao:{n:'蕭萬長',t:[['t-s','榮譽理事長'],['t-p','國貿幫大老'],['t-b','兩岸共同市場基金會']],d:'前副總統，馬英九稱其為「經濟總設計師」。國貿局長出身。創會理事長，現任榮譽理事長。2013年在博鰲與習近平會面，提出「政策協調和經濟戰略共同探討」獲正面肯定。國貿幫三位大老之首。'},
+jiang:{n:'江丙坤（已歿）',t:[['t-s','前理事長'],['t-p','國貿幫大老'],['t-b','三三會理事長']],d:'前海基會會長。國貿局長出身。峰會理事長。主導2011-2013年服貿協議談判期間的海基會運作。與陳瑞隆同為中興法商畢業，曾派駐南非。另任三三企業交流會理事長、華聚基金會創會董事長。國貿幫三位大老之一。'},
+chen:{n:'陳瑞隆',t:[['t-s','副理事長'],['t-p','國貿幫大老'],['t-b','華聚基金會董事長']],d:'前經濟部長。國貿局長出身。峰會副理事長。2008年政黨輪替前18天任部長期間，投審會與金管會做出「外資買台股單次10%以下免審查」決議。另任華聚產業共同標準推動基金會董事長。國貿幫三位大老之一。歷任國貿局長中，連曾任扁政府時期的經濟部長陳瑞隆，卸任後都被國貿幫延攬出任峰會副理事長。'},
+liu:{n:'劉兆玄',t:[['t-s','理事長'],['t-b','中華文化永續基金會']],d:'前行政院長，現任峰會理事長。2022年率團赴中出訪，經民連抗議其「擁抱習近平極權統治」。另主持中華文化永續發展基金會推廣「王道永續指標」。任行政院長時通過開放中資藉FINI來台的政策。'},
+yin:{n:'尹啟銘',t:[['t-s','祕書長'],['t-p','第三地中資定義']],d:'前經濟部長，峰會祕書長。2009年主導制定《大陸地區人民來台投資許可辦法》，將第三地中資定義設為「持股三成以上或有控制能力」才算中資。經濟部官僚出身，退休後直接到峰會任職。'},
+fan:{n:'范良棟',t:[['t-s','副祕書長'],['t-p','兩大政策決策者'],['t-b','工商協進會祕書長']],d:'前投審會執行祕書，峰會副祕書長。唯一同時參與兩大關鍵決策的人物：(1) 2009年第三地中資定義；(2) 2008年外資買台股10%以下免審查。經民連向監察院陳訴要求彈劾。另任工商協進會祕書長。工總祕書長與工商協進會祕書長固定擔任峰會副祕書長，形成制度化旋轉門。'},
+cai:{n:'蔡練生',t:[['t-s','副祕書長'],['t-p','鼓吹從寬規範'],['t-b','工總祕書長']],d:'前投審會執行祕書、前智慧財產局局長，萬年工總祕書長，峰會副祕書長。2009年以工總名義大力鼓吹對中投資從寬規範。1996-2002年任投審會執行祕書期間主導開放台商赴中投資規定，修法讓台商轉讓中國子公司只需事後報備。'},
+wu:{n:'吳當傑',t:[['t-p','外資免審查決議'],['t-b','金融總會祕書長']],d:'前證期局局長，未任峰會職務。2008年「外資買台股單次10%以下免審查」決議主導者之一。現任台灣金融服務業聯合總會祕書長。與黃天牧為間隔一任的前後證期局局長。'},
+zhuo:{n:'卓士昭',t:[['t-p','拆安全閥'],['t-p','服貿主將']],d:'前國貿局長、經濟部常務次長、服貿協議總談判代表，未任峰會職務。2012年將中國從絕大多數戰略性高科技貨品「管制地區」移出，拆掉扁政府的安全閥。媒體稱「服貿、貨貿推手」。國貿局長出身，曾派駐南非。'},
+zhang:{n:'張銘斌',t:[['t-p','架空對中投資管制']],d:'投審會執行祕書，橫跨藍綠超過十年。2015年將十二吋（含）以下晶圓鑄造改列對中投資「一般類」，使違法輸出只能罰錢無刑責。目前兼任經濟部投資業務處代理處長、投資台灣事務所執行長、招商投資服務中心執行長，將「審查」與「招商」混為一談。'},
+fu:{n:'傅棟成',t:[['t-s','特聘專家'],['t-p','蔡政府國安會諮委']],d:'前陸委會經濟處長、副主委。蔡政府國安會諮詢委員，負責對中經濟安全事務。在中國峰會2016年網頁上被列為台灣峰會「特聘專家」。為蔡總統最核心的兩岸政策幕僚之一。其政治判斷令人疑慮。'},
+yang:{n:'楊珍妮',t:[['t-n','國貿幫新世代'],['t-p','總談判代表']],d:'2016年後首任國貿局長。國貿局常任文官出身，曾任駐外人員及經貿談判代表。卸任國貿局長後升任政務委員兼經貿談判辦公室總談判代表。國貿幫新世代的典型晉升路徑代表。'},
+chenZQ:{n:'陳正祺',t:[['t-n','國貿幫新世代'],['t-b','外貿協會・中技社董事']],d:'國貿局長出身，卸任後升任經濟部政務次長。同時擔任外貿協會董事與中技社董事，而這兩個官股財團法人正是兩岸企業家峰會的會員。體現國貿幫從政策制定到工商團體的人脈網絡延伸。'},
+jiangWR:{n:'江文若',t:[['t-n','國貿幫新世代'],['t-p','副總談判代表']],d:'國貿局長出身，卸任後升任經濟部政務次長兼經貿談判辦公室副總談判代表。國貿幫新世代之一，展現「國貿局長→部長職」的固定晉升管道。'},
+liuWL:{n:'劉威廉',t:[['t-n','國貿幫新世代']],d:'現任國貿署長（國貿局改制後）。國貿局常任文官出身，曾任駐外人員及經貿談判代表。尚在任中，未來動向待觀察。四位新世代中唯一尚在國貿署的人。'},
+orgs:{n:'三大附屬基金會',t:[['t-b','兩岸共同市場'],['t-b','王道永續指標'],['t-b','兩岸共同標準']],d:'兩岸共同市場基金會（蕭萬長）：「建構兩岸經濟統合」。中華文化永續發展基金會（劉兆玄）：推廣「王道永續指標」。華聚產業共同標準推動基金會（陳瑞隆）：「兩岸共同制定產業標準」。三者合起來就是「書同文、車同軌」，為統一建構基礎結構。'},
+gov:{n:'官股財團法人會員',t:[['t-b','工研院'],['t-b','中技社'],['t-b','外貿協會']],d:'工研院（政府全額捐助）、中技社、外貿協會列名峰會會員。陳正祺（經濟部政務次長）同時擔任外貿協會與中技社董事，體現國貿幫的制度性網絡延伸。經民連抗議要求退出：「人民的納稅錢不可以被挪去協助中共搞統戰。」'},
+p1:{n:'2009年 第三地中資定義',t:[['t-p','尹啟銘'],['t-p','范良棟'],['t-p','蔡練生鼓吹']],d:'經濟部制定《大陸地區人民來台投資許可辦法》，規定中資繞道第三地來台，持股未達三成且無控制力就不算中資。「綜合持股計算法」使51%×51%=26.01%不到三成而不算中資。蔡政府迄今未改。'},
+p2:{n:'2008年 外資買台股免審查',t:[['t-p','陳瑞隆'],['t-p','范良棟'],['t-p','吳當傑']],d:'政黨輪替前18天，投審會與金管會決議：外資買台股「單次」10%以下免投審會審查。分六次每次9%即可取得過半股權不受審查。監察院調查報告指責「核有未當」。'},
+p3:{n:'2011-2013年 服貿協議談判',t:[['t-p','蕭萬長'],['t-p','江丙坤'],['t-p','卓士昭']],d:'蕭萬長任「經濟總設計師」、江丙坤任海基會會長、卓士昭為總談判代表。後引發太陽花運動阻止生效。期間卓士昭同步將中國從戰略性高科技貨品管制地區移出。'},
+};
+function sd(k){const d=D[k],p=document.getElementById('detail');const tags=d.t.map(t=>'<span class="tg '+t[0]+'">'+t[1]+'</span>').join('');p.innerHTML='<h3>'+d.n+'</h3><div style="margin:6px 0">'+tags+'</div><div style="margin-top:6px">'+d.d+'</div>';p.style.display='block';p.scrollIntoView({behavior:'smooth',block:'nearest'});}
+</script>
+</body>
+</html>
